@@ -1,0 +1,187 @@
+.globle-body{
+    overflow: hidden;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-iphone{
+    background-color: #f2f2f2;
+}
+.text-black{
+    color: black;
+}
+.suggested-sentence{
+    font-size: 36px;
+}
+.product-info-odd{
+    flex-direction: row-reverse;
+    height: 120vh;
+}
+.product-info-even{
+    flex-direction: row;
+    height: 120vh;
+}
+.product-detail{
+    z-index: 3;
+}
+.status-product{
+    font-size: 24px;
+}
+.product-slogan{
+    font-size: 28px;
+}
+.product-image{
+    margin-top: -25px;
+    margin-left: -130px;
+    cursor: pointer;
+    z-index: 1;
+}
+/*css mac*/
+.macbook-air-image,
+.macbook-pro-image,
+.mac-mini-image{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 800px;
+    height: 500px;
+}
+.macbook-air-image{
+    background-image: url("../images/products_page_image/Mac_image/macbook_air.jpg");
+}
+.macbook-pro-image{
+    background-image: url("../images/products_page_image/Mac_image/macbook_pro.jpg");
+}
+.mac-mini-image{
+    background-image: url("../images/products_page_image/Mac_image/mac_mini.jpg");
+}
+
+.processing-unit{
+    width: 30px;
+    height: 30px;
+}
+
+/*css iphone*/
+.iphone-12-hero-image{
+    background-image: url("../images/products_page_image/iPhone_image/iphone_12_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 550px;
+    margin-left: 100px;
+}
+.feature-list{
+    height: 260px;
+}
+.iphone-name{
+    font-size: 24px;
+}
+.iphone-suggested-list{
+    width: 80%;
+}
+.iphone-12-image{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 170px;
+    height: 255px;
+}
+.iphone-12-pro{
+    background-image: url("../images/products_page_image/iPhone_image/compare_iphone_12_pro.jpg");
+}
+.iphone-12-classic{
+    background-image: url("../images/products_page_image/iPhone_image/compare_iphone_12.jpg");
+}
+.iphone-11{
+    background-image: url("../images/products_page_image/iPhone_image/compare_iphone_11.jpg");
+}
+.iphone-se{
+    background-image: url("../images/products_page_image/iPhone_image/compare_iphone_se.jpg");
+}
+/* css ipad */
+.ipad-air-image{
+    background-image: url("../images/products_page_image/iPad_image/ipad_air.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 700px;
+    margin-left: 150px;
+}
+.ipad-102-image{
+    background-image: url("../images/products_page_image/iPad_image/ipad_102.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 800px;
+    height: 500px;
+}
+.ipad-pro-image{
+    background-image: url("../images/products_page_image/iPad_image/ipad_pro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 700px;
+    height: 330px;
+    margin-left: 100px;
+}
+.ipad-mini-image{
+    background-image: url("../images/products_page_image/iPad_image/ipad_mini.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+/* css watch */
+.watch-s6-image{
+    background-image: url("../images/products_page_image/Watch_image/watch-s6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 700px;
+    margin-left: 100px;
+}
+.logo-s6{
+    background-image: url("../images/products_page_image/Watch_image/logo/logo-watch-s6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 40px;
+    margin-left: 110px;
+}
+.watch-se-image{
+    background-image: url("../images/products_page_image/Watch_image/watch-se.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 600px;
+    height: 700px;
+    margin-left: 100px;
+}
+.logo-se{
+    background-image: url("../images/products_page_image/Watch_image/logo/logo-watch-se.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 40px;
+    margin-left: 110px;
+}
+.watch-image{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 255px;
+}
+.watch-name{
+    font-size: 24px;
+}
+.watch-s6{
+    background-image: url("../images/products_page_image/Watch_image/compare_s6.jpg");
+}
+.watch-se{
+    background-image: url("../images/products_page_image/Watch_image/compare_se.jpg");
+}
+.watch-s3{
+    background-image: url("../images/products_page_image/Watch_image/compare_s3.jpg");
+}
+/* footer  */
+.footer{
+    width: 85%;
+    font-size: 12px;
+}
