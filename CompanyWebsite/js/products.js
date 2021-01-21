@@ -1,11 +1,3 @@
-var buttonBuy=document.getElementsByClassName("btn");
-console.log(buttonBuy)
-for(var i=0;i<buttonBuy.length;i++){
-    buttonBuy[i].onclick=()=>{
-        location.href="../pages/order.html";
-    }
-}
-
 window.addEventListener("scroll",function(event){
     var scrollY= window.scrollY;
     // animation mac

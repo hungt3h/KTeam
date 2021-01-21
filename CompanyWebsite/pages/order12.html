@@ -88,12 +88,22 @@
 		</div>
 		<hr>
 		<div class="row">
-			<h2 class="text-danger">->Please select the item before making the payment...!</h2>
 			<div class="col-12 col-sm-6 col-md-6 col-lg-6 mx-auto mt-5 customer">
 				<a href="../pages/products.html" class="text-decoration-none"><-- Buy more products..</a>
 				<label class="Your-cart">Your cart</label>
 				<div class="Information bg-white mb-2 p-2">
 					<form action="#" method="post">
+						<div class="row">
+							<div class="col-12 col-sm-4 col-md-4 col-lg-4">
+								<img class="img ml-5" src="../images/img_order/iphone_img/compare_iphone_12.jpg">
+							</div>
+							<div class="col-12 col-sm-8 col-md-8 col-lg-8">
+								<strong>Iphone 12</strong>
+								<p class="text-danger">16.077.000₫</p>
+								<p>Color: yellow</p>
+							</div>
+						</div>
+						<hr>
 						<div class="container bg-white">
 							<div class="row">
 								<div class="col-12 col-sm col-md col-lg p-2">
@@ -165,6 +175,14 @@
 										<label>Billing company</label>
 									</div>
 									<hr>
+									<div class="row">
+										<div class="col-12 col-sm col-md col-lg text-danger">
+											<strong>Total payment:</strong>
+										</div>
+										<div class="col-12 col-sm col-md col-lg text-right">
+											<p>16.077.000₫</p>
+										</div>
+									</div>
 									<div class="text-center">
 										<button class="btn-primary mb-3 buy" type="submit" name="order" onclick="buy()">Buy</button>
 									</div>
@@ -248,7 +266,12 @@
     </div>
 	<script>
 		function buy(){
-                alert('Please choose a product!');
+			if(confirm("Are you sure to order??") == true){
+                alert('You have successfully ordered!');
+            }
+            else{
+                alert('You have canceled your order!');
+            }
         }
 	</script>
 </body>
