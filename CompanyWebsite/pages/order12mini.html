@@ -17,7 +17,7 @@
 			<div class="col-12 col-sm col-md col-lg m-0 p-0">
 				<nav class="navbar navbar-expand-md navbar-dark  bg-nav">
 					<div class="container-fluid">
-						<a class="navbar-brand ml-5" href="../index.html" id="branch">
+						<a class="navbar-brand ml-5" href="index.html" id="branch">
 							<img src="../icon/icon_order/logo.png" class="logo">
 						</a>
 						<button class="navbar-toggler" data-toggle="collapse" data-target="#homeNavbar">
@@ -26,7 +26,7 @@
 						<div class="collapse navbar-collapse" id="homeNavbar">
 							<ul class="navbar-nav mx-auto text-center">
 								<li class="nav-item mr-5">
-									<a class="nav-link active" href="../index.html">Home</a>
+									<a class="nav-link active" href="#">Home</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="../pages/products.html">Product</a>
@@ -93,6 +93,17 @@
 				<label class="Your-cart">Your cart</label>
 				<div class="Information bg-white mb-2 p-2">
 					<form action="#" method="post">
+						<div class="row">
+							<div class="col-12 col-sm-4 col-md-4 col-lg-4">
+								<img class="img ml-5" src="../images/img_order/iphone-mini.png">
+							</div>
+							<div class="col-12 col-sm-8 col-md-8 col-lg-8">
+								<strong>64GB iPhone 12 mini phone</strong>
+								<p class="text-danger">19.090.000₫<br><del>21.990.000₫</del></p>
+								<p>Color: Red.</p>
+							</div>
+						</div>
+						<hr>
 						<div class="container bg-white">
 							<div class="row">
 								<div class="col-12 col-sm col-md col-lg p-2">
@@ -164,6 +175,14 @@
 										<label>Billing company</label>
 									</div>
 									<hr>
+									<div class="row">
+										<div class="col-12 col-sm col-md col-lg text-danger">
+											<strong>Total payment:</strong>
+										</div>
+										<div class="col-12 col-sm col-md col-lg text-right">
+											<p>19.090.000₫</p>
+										</div>
+									</div>
 									<div class="text-center">
 										<button class="btn-primary mb-3 buy" type="submit" name="order" onclick="buy()">Buy</button>
 									</div>
@@ -247,7 +266,12 @@
     </div>
 	<script>
 		function buy(){
-                alert('Please choose a product!');
+			if(confirm("Are you sure to order??") == true){
+                alert('You have successfully ordered!');
+            }
+            else{
+                alert('You have canceled your order!');
+            }
         }
 	</script>
 </body>
