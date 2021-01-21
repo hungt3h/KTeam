@@ -1,0 +1,138 @@
+.container{
+	background: #d9d9d9;
+}
+.navbar{
+	border-bottom: 1px solid white;
+}
+.body-content{
+	font-family: 'Nunito';
+}
+.bg-nav{
+	 background-color: black;
+}
+.nav-item{
+	margin-right: 40px; 
+}
+.nav-link:hover{
+	text-shadow: 1px 2px 30px white!important;
+	color: white!important;
+}
+.search-text{
+	font-size: 100%;
+	cursor: pointer;
+	padding: 9px 10px 9px 32px;
+	background:rgba(0,0,0,0.5) url("../icon/icon_order/search-icon.png") no-repeat 7px center;
+	outline: none;
+	color:white;
+	border:none;
+	transition: all 0.8s linear!important;
+	width: 0;
+}
+.search-text:focus{
+	border: 1px solid gray;
+}
+.search-text:hover{
+	width: 200px;
+	border-radius: 4rem;
+	border-bottom: 1px solid gray;
+	transition: 0.8 linear;
+}
+#Slider {
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.aspect-ratio-169{
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+    transition: 0.3s;
+}
+.aspect-ratio-169 img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    top: 0;
+    left: 0;
+}
+.dot-container{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color: #CCC;
+    border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.dot.active{
+    background-color: #333;
+}
+.content{
+	background-image: url('../images/img_order/background_order.png');
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+}
+.form-inline{
+	float: right;
+}
+.img{
+	width: 60px;
+	height: 90px;
+}
+.product{
+	font-size: 12px;
+}
+.Suggestions{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 80%;
+	height: 35%;
+    margin-right: 12px;
+    columns: #333333;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Suggestions:hover{
+	transform: scale(1.1);
+}
+.Information{
+	border: 1px solid black;
+	color: black;
+}
+.customer:hover{
+	transform: scale(1.01);
+}
+.Your-cart{
+	float: right;
+}
+.address{
+	border-radius: 10px;
+	background-color: #ffcccc;
+	color: black;
+	border: 1px solid #ff4d4d;
+}
+.buy{
+	border-radius: 4px;
+	width: 90%;
+	height: 40px;
+}
+.buy:hover{
+	transform: scale(1.04);
+}
+.footer{
+	background-color: black;
+}
