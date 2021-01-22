@@ -620,7 +620,14 @@
             <a href="#" class="text-black"> Terms of Use</a>
         </div>
     </div>
-    <script src="../js/products.js"></script>
+    <script>
+        var buttonBuy=document.getElementsByClassName("btn");
+        for(var i=0;i<buttonBuy.length;i++){
+            buttonBuy[i].onclick=()=>{
+            location.href="../pages/order.html";
+            }
+        }
+    </script>
 </body>
 
 </html>
