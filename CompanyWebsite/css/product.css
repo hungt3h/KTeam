@@ -1,4 +1,4 @@
-.globle-body{
+.globe-body{
     overflow: hidden;
 }
 .bg-black{
@@ -50,6 +50,9 @@
 }
 .macbook-pro-image{
     background-image: url("../images/products_page_image/Mac_image/macbook_pro.jpg");
+}
+.macbook-pro-detail{
+    margin-left: 55px;
 }
 .mac-mini-image{
     background-image: url("../images/products_page_image/Mac_image/mac_mini.jpg");
@@ -184,4 +187,331 @@
 .footer{
     width: 85%;
     font-size: 12px;
+}
+@media only screen and (min-width:576px){
+    .suggested-sentence{
+        font-size: 28px;
+    }
+    .product-name{
+        font-size: 28px;
+    }
+    .status-product{
+        font-size: 12px;
+    }
+    .product-slogan{
+        margin-top: 16px;
+        font-size: 24px;
+    }
+    .unit-detail{
+        font-size: 12px;
+    }
+    .product-image{
+        margin-top: -25px;
+        margin-left: 55px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    /*css mac*/
+    .macbook-air-image,
+    .macbook-pro-image,
+    .mac-mini-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 400px;
+        height: 250px;
+    }
+    .macbook-pro-detail{
+        margin-left: 0;
+    }
+    .processing-unit{
+        width: 25px;
+        height: 25px;
+    }
+    /*css iphone*/
+    .iphone-12-hero-image{
+        width: 300px;
+        height: 255px;
+        margin-left: 50px;
+    }
+    .feature-list{
+        height: 260px;
+    }
+    .iphone-name{
+        font-size: 24px;
+    }
+    .iphone-suggested-list{
+        width: 80%;
+    }
+    .iphone-12-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 144px;
+        height: 204px;
+    }
+    /* css ipad */
+    .ipad-air-image{
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    .ipad-102-image{
+        width: 400px;
+        height: 250px;
+    }
+    .ipad-pro-image{
+        width: 350px;
+        height: 165px;
+        margin-left: 50px;
+    }
+    .ipad-mini-image{
+        width: 300px;
+        height: 250px;
+        margin-left: 50px;
+    }
+    
+    /* css watch */
+    .watch-s6-image{
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    .logo-s6{
+        width: 120px;
+        height: 40px;
+    }
+    .watch-se-image{
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    .logo-se{
+        width: 120px;
+        height: 40px;
+    }
+    .watch-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 160px;
+        height: 204px;
+    }
+    .watch-name{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width:768px){
+    .suggested-sentence{
+        font-size: 36px;
+    }
+    .status-product{
+        font-size: 24px;
+    }
+    .product-detail{
+        margin-right: 100px;
+    }
+    .product-slogan{
+        font-size: 14px;
+    }
+    .product-image{
+        margin-top: -25px;
+        margin-left: -130px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    /*css mac*/
+    .macbook-air-image,
+    .macbook-pro-image,
+    .mac-mini-image{
+        width: 500px;
+        height: 275px;
+    }
+    .macbook-pro-detail{
+        margin-left: 100px ;
+    }
+    .processing-unit{
+        width: 30px;
+        height: 30px;
+    }
+    
+    /*css iphone*/
+    .iphone-12-hero-image{
+        width: 400px;
+        height: 365px;
+        margin-left: 275px;
+    }
+    .feature-list{
+        height: 260px;
+    }
+    .iphone-name{
+        font-size: 24px;
+    }
+    .iphone-suggested-list{
+        width: 80%;
+    }
+    .iphone-12-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 170px;
+        height: 255px;
+    }
+    /* css ipad */
+    .ipad-air-image{
+        width: 400px;
+        height: 500px;
+        margin-left: 150px;
+    }
+    .ipad-102-image{
+        width: 480px;
+        height: 330px;
+    }
+    .ipad-pro-image{
+        width: 480px;
+        height: 220px;
+        margin-left: 100px;
+    }
+    .ipad-mini-image{
+        width: 400px;
+        height: 360px;
+        margin-left: 200px;
+    }
+    
+    /* css watch */
+    .watch-s6-image{
+        width: 400px;
+        height: 500px;
+        margin-left: 100px;
+    }
+    .watch-s6-detail{
+        margin-left: 100px;
+    }
+    .logo-s6{
+        width: 120px;
+        height: 40px;
+        margin-left: 110px;
+    }
+    .watch-se-image{
+        width: 400px;
+        height: 500px;
+        margin-left: 100px;
+    }
+    .logo-se{
+        width: 120px;
+        height: 40px;
+        margin-left: 110px;
+    }
+    .watch-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 160px;
+        height: 205px;
+    }
+    .watch-name{
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width:992px){
+    .status-product{
+        font-size: 24px;
+    }
+    .product-slogan{
+        font-size: 28px;
+    }
+    .product-detail{
+        margin-right: 0;
+    }
+    .product-image{
+        margin-top: -25px;
+        margin-left: -130px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    /*css mac*/
+    .macbook-air-image,
+    .macbook-pro-image,
+    .mac-mini-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 800px;
+        height: 500px;
+    }
+    .macbook-pro-detail{
+        margin-left: 55px;
+    }
+    .processing-unit{
+        width: 30px;
+        height: 30px;
+    }
+    
+    /*css iphone*/
+    .iphone-12-hero-image{
+        width: 600px;
+        height: 550px;
+        margin-left: 100px;
+    }
+    .feature-list{
+        height: 260px;
+    }
+    .iphone-name{
+        font-size: 24px;
+    }
+    .iphone-suggested-list{
+        width: 80%;
+    }
+    .iphone-12-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 170px;
+        height: 255px;
+    }
+    /* css ipad */
+    .ipad-air-image{
+        width: 600px;
+        height: 700px;
+        margin-left: 150px;
+    }
+    .ipad-102-image{
+        width: 800px;
+        height: 500px;
+    }
+    .ipad-pro-image{
+        width: 700px;
+        height: 330px;
+        margin-left: 100px;
+    }
+    .ipad-mini-image{
+        width: 600px;
+        height: 500px;
+        margin-left: 200px;
+    }
+    
+    /* css watch */
+    .watch-s6-image{
+        width: 600px;
+        height: 700px;
+        margin-left: 100px;
+    }
+    .logo-s6{
+        width: 120px;
+        height: 40px;
+        margin-left: 110px;
+    }
+    .watch-se-image{
+        width: 600px;
+        height: 700px;
+        margin-left: 100px;
+    }
+    .logo-se{
+        width: 120px;
+        height: 40px;
+        margin-left: 110px;
+    }
+    .watch-image{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 200px;
+        height: 255px;
+    }
+    .watch-name{
+        font-size: 24px;
+    }
+    
 }
