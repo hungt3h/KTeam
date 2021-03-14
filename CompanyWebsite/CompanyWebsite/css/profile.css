@@ -1,0 +1,112 @@
+.navbar{
+    border-bottom: 1px solid white;
+}
+.body-content{
+    font-family: 'Nunito';
+}
+.bg-nav{
+     background-color: black;
+}
+.nav-item{
+    margin-right: 40px; 
+}
+.nav-link:hover{
+    text-shadow: 1px 2px 30px white!important;
+    color: white!important;
+}
+.search-text{
+    font-size: 100%;
+    cursor: pointer;
+    padding: 9px 10px 9px 32px;
+    background:rgba(0,0,0,0.5) url("../icon/profile_icon/search-text.png") no-repeat 7px center;
+    outline: none;
+    color:white;
+    border:none;
+    transition: all 0.8s linear!important;
+    width: 0;
+}
+.search-text:focus{
+    border: 1px solid gray;
+}
+.search-text:hover{
+    width: 200px;
+    border-radius: 4rem;
+    border-bottom: 1px solid gray;
+    transition: 0.8 linear;
+}
+.body-content{
+    background: url(../images/img_profile/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    background-attachment: fixed; 
+    padding:210px 10px;
+}
+.card-profile{
+    background-color:transparent!important;
+    border-radius:50%!important;
+    padding-left:35px;
+    border:none!important;
+    padding-right: 35px;
+   /* overflow: hidden;*/
+}
+.card-profile:hover{
+    border-radius:10px!important;
+    background: linear-gradient(to top ,rgba(0,0,0,1),rgba(225,0,0,1));
+    transition: 0.3s;
+    position: relative;
+   /* height: 100%;*/
+}
+.card-body{
+    height:0;
+    opacity: 0;
+    transition: 0.1s;
+}
+.card-profile:hover .card-body{
+    height:auto;
+    z-index: 1!important;
+    opacity: 1;
+    transition: 0.5s;
+}
+.fab,.far{
+    margin-top: 2px;
+    padding: 4px;
+    border-radius:50px;
+    font-size: 20px!important; 
+}
+.card-profile:hover .fab,.far{
+    background-color: black;
+    color:white;
+}
+.social-icons{
+    opacity: 0;
+    transition: 0.1s;
+}
+.card-img-top{
+    border-radius:70%!important;
+    max-height:200px;
+}
+.card-profile:hover .card-img-top{
+    height:auto;
+    transition: 0.5s linear;
+} 
+.card-profile:hover .social-icons{
+    opacity: 1;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+.bg-yellow:hover{
+    background:linear-gradient(to top,#ffe566,#ffffff);
+}
+.bg-blue:hover{
+    background:linear-gradient(to top,#00c6da,#ffffff);
+}
+.bg-gray:hover{
+    background:linear-gradient(to top,#8a7878,#ffffff);
+}
+.bg-pink:hover{
+    background:linear-gradient(to top,#fd83e8,#ffffff);
+}
+.bg-red{
+    color:white;
+}
