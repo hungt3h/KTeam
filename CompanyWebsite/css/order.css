@@ -1,7 +1,45 @@
-
+.container{
+	background: #d9d9d9;
+}
+.navbar{
+	border-bottom: 1px solid white;
+}
+.body-content{
+	font-family: 'Nunito';
+}
+.bg-nav{
+	 background-color: black;
+}
+.nav-item{
+	margin-right: 40px; 
+}
+.nav-link:hover{
+	text-shadow: 1px 2px 30px white!important;
+	color: white!important;
+}
+.search-text{
+	font-size: 100%;
+	cursor: pointer;
+	padding: 9px 10px 9px 32px;
+	background:rgba(0,0,0,0.5) url("../icon/icon_order/search-icon.png") no-repeat 7px center;
+	outline: none;
+	color:white;
+	border:none;
+	transition: all 0.8s linear!important;
+	width: 0;
+}
+.search-text:focus{
+	border: 1px solid gray;
+}
+.search-text:hover{
+	width: 200px;
+	border-radius: 4rem;
+	border-bottom: 1px solid gray;
+	transition: 0.8 linear;
+}
 .content{
 	background-image: url('../images/img_order/background_order.png');
-	height: 300px;
+	height: 150%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -14,17 +52,16 @@
 	float: right;
 }
 .img{
-	width: 60px;
-	height: 90px;
+	width: 50%;
+	height: 80px;
 }
 .product{
 	font-size: 12px;
 }
 .Suggestions{
 	border-radius: 5px;
-	border: 1px solid black;
 	width: 80%;
-	height: 35%;
+	height: 40%;
     margin-right: 12px;
     columns: #333333;
     cursor: pointer;
@@ -34,7 +71,7 @@
 	transform: scale(1.1);
 }
 .Information{
-	border: 1px solid black;
+	border-radius: 5px;
 	color: black;
 }
 .Your-cart{
