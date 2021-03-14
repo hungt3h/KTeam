@@ -3,140 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../fontawesome/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../icon/fontawesome/css/all.min.css">
     <title>Profile</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm col-md col-lg m-0 p-0">
-                <nav class="navbar navbar-expand-md navbar-dark  bg-nav">
-                    <div class="container-fluid">
-                        <a class="navbar-brand ml-5" href="../index.html" id="branch">
-                            <img src="../icon/icon_order/logo.png" class="logo">
-                        </a>
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#homeNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="homeNavbar">
-                            <ul class="navbar-nav mx-auto text-center">
-                                <li class="nav-item mr-5">
-                                    <a class="nav-link active" href="../index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/products.html">Product</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/order.html">Order</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/support.html">Support</a>
-                                </li>
-                                <li class="nav-item">
-                                    <form action="#">
-                                        <input type="search" name="Search" class="search-text" placeholder="Search">
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-band">
+                <img src="../images/home-images/logo.png" alt="logo" height="30px">
+                <span class="slogan text-white my-auto">Apple</span>
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
+                    <li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
+                    <li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
+                </ul>   
             </div>
         </div>
-        <div class="row  body-content">
-            <div class="col m-0">
-                 <div class="card card-profile bg-yellow">
-                        <div class="social-icons">
-                            <i class="fab fa-facebook"></i><br>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <img class="card-img-top" src="../images/img_profile/nhung.png">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mt-3">
-                            Đào Hồng Nhung
-                        </h5>
-                        <h6>Vai Trò:Dev</h6>
-                        <h6>Contact:1234556789</h6>
-                        <h6>Fax:987654321</h6>
-                    </div>
-                 </div>
-            </div>
-            <div class="col m-0">
-                <div class="card card-profile bg-blue">
-                        <div class="social-icons">
-                            <i class="fab fa-facebook"></i><br>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <img class="card-img-top" src="../images/img_profile/khanh.png">
-                    <div class="card-body text-center">
+    </nav>
+</section>
+<div class="container-fluid p-0 m-auto">
+    <div class="row card-container m-auto">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+
+            <div class="card-profile">
+                <img src="../images/img_profile/bich.png" alt="profile_img">
+                <h3 class="my-3">Nguyễn Thị Bích</h3>
+                <h5>Developer</h5>
+                <p>Không có gì là ko thể.</p>
+                <button type="button" name="button">See More</button>
+                <ul class="list-unstyled my-3">
+
+                    <li><span class="fab fa-facebook"></span></li>
+                    <li><span class="fab fa-twitter"></span></li>
+                    <li><span class="fab fa-instagram"></span></li>
+
+                </ul>
+                <div class="head">
+                    <div class="title">
                         
-                        <h5 class="card-title mt-3">
-                            Đặng Duy Khanh
-                        </h5>
-                        <h6>Vai Trò:Dev</h6>
-                        <h6>Contact:987654321</h6>
-                        <h6>Fax:123456789</h6>
                     </div>
-                 </div>
+                    <div class="title">
+                    </div>
+                </div>
             </div>
-            <div class="col m-0">
-                <div class="card card-profile bg-red">
-                        <div class="social-icons">
-                            <i class="fab fa-facebook"></i><br>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <img class="card-img-top" src="../images/img_profile/lang.png">
-                    <div class="card-body text-center">
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+
+            <div class="card-profile">
+                <img src="../images/img_profile/hung.png" alt="profile_img"><!--ảnh ở đây-->
+                <h3 class="my-3">john doe</h3><!--đổi tên này nhớ đổi tất nhá phía dưới là chức danh nhớ lăng là leader còn lại là developer dưới nữa là tuổi -->
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>vibecoder</p>
+                <button type="button" name="button">profile</button>
+                <ul class="list-unstyled my-3">
+
+                    <li><span class="fab fa-facebook"></span></li>
+                    <li><span class="fab fa-twitter"></span></li>
+                    <li><span class="fab fa-instagram"></span></li>
+
+                </ul>
+                <div class="head">
+                    <div class="title">
+                        số điện thoại ở đây nhớ mở đúng thẻ cho đẹp nhá.
+                    </div>
+                    <div class="title">
+                        cái gi đó ở đây nhớ là cái khác cũng viết ở title 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+
+            <div class="card-profile">
+                <img src="../images/img_profile/nhung.png" alt="profile_img">
+                <h3 class="my-3">john doe</h3>
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>vibecoder</p>
+                <button type="button" name="button">profile</button>
+                <ul class="list-unstyled my-3">
+
+                    <li><span class="fab fa-facebook"></span></li>
+                    <li><span class="fab fa-twitter"></span></li>
+                    <li><span class="fab fa-instagram"></span></li>
+
+                </ul>
+                <div class="head">
+                    <div class="title">
                         
-                        <h5 class="card-title mt-3">
-                            Kiều Trí Lăng 
-                        </h5>
-                        <h6>Vai Trò:Leader</h6>
-                        <h6>Contact:987654321</h6>
-                        <h6>Fax:123456789</h6>
                     </div>
-                 </div>
-            </div>
-            <div class="col m-0">
-                <div class="card card-profile bg-gray">
-                        <div class="social-icons">
-                            <i class="fab fa-facebook"></i><br>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <img class="card-img-top" src="../images/img_profile/hung.png">
-                    <div class="card-body text-center">
-                        <h5 class="card-title mt-3">
-                            Hà Mạnh Hùng
-                        </h5>
-                        <h6>Vai Trò:Dev</h6>
-                        <h6>Contact:987654321</h6>
-                        <h6>Fax:123456789</h6>
+                    <div class="title">
                     </div>
-                 </div>
+                </div>
             </div>
-            <div class="col m-0">
-                <div class="card card-profile bg-pink">
-                        <div class="social-icons">
-                            <i class="fab fa-facebook"></i><br>
-                            <i class="far fa-envelope"></i>
-                        </div>
-                        <img class="card-img-top bg-pink" src="../images/img_profile/bich.png">
-                    <div class="card-body text-center">
-                       
-                        <h5 class="card-title mt-3">
-                            Nguyễn Thị Bích
-                        </h5>
-                        <h6>Vai Trò:Dev</h6>
-                        <h6>Contact:987654321</h6>
-                        <h6>Fax:123456789</h6>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+
+            <div class="card-profile">
+                <img src="../images/img_profile/khanh.png" alt="profile_img">
+                <h3 class="my-3">john doe</h3>
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>vibecoder</p>
+                <button type="button" name="button">profile</button>
+                <ul class="list-unstyled my-3">
+
+                    <li><span class="fab fa-facebook"></span></li>
+                    <li><span class="fab fa-twitter"></span></li>
+                    <li><span class="fab fa-instagram"></span></li>
+
+                </ul>
+                <div class="head">
+                    <div class="title">
+                        
                     </div>
-                 </div>
+                    <div class="title">
+                    </div>
+                </div>
             </div>
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+
+            <div class="card-profile">
+                <img src="../images/img_profile/lang.png" alt="profile_img">
+                <h3 class="my-3">john doe</h3>
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>vibecoder</p>
+                <button type="button" name="button">profile</button>
+                <ul class="list-unstyled my-3">
+
+                    <li><span class="fab fa-facebook"></span></li>
+                    <li><span class="fab fa-twitter"></span></li>
+                    <li><span class="fab fa-instagram"></span></li>
+
+                </ul>
+                <div class="head">
+                    <div class="title">
+                        
+                    </div>
+                    <div class="title">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 </body>
 </html>                   

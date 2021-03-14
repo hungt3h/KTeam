@@ -14,13 +14,13 @@
     font-size: 36px;
 }
 .product-info-odd{
-    flex-direction: row-reverse;
-    height: 120vh;
+    /* flex-direction: row-reverse;
+    height: 120vh; */
 }
-.product-info-even{
+/* .product-info-even{
     flex-direction: row;
     height: 120vh;
-}
+} */
 .product-detail{
     z-index: 3;
 }
@@ -42,8 +42,8 @@
 .mac-mini-image{
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 800px;
-    height: 500px;
+    width: 100%!important;
+    height: 400px!important;
 }
 .macbook-air-image{
     background-image: url("../images/products_page_image/Mac_image/macbook_air.jpg");
@@ -137,8 +137,8 @@
     background-image: url("../images/products_page_image/Watch_image/watch-s6.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 600px;
-    height: 700px;
+    width:100%;
+    height:400px!important;
     margin-left: 100px;
 }
 .logo-s6{
@@ -153,8 +153,8 @@
     background-image: url("../images/products_page_image/Watch_image/watch-se.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 600px;
-    height: 700px;
+    width: 100%!important;
+    height: 400px!important;
     margin-left: 100px;
 }
 .logo-se{
@@ -240,7 +240,7 @@
         font-size: 24px;
     }
     .iphone-suggested-list{
-        width: 80%;
+        width: 100%;
     }
     .iphone-12-image{
         background-repeat: no-repeat;
@@ -375,11 +375,11 @@
     }
     
     /* css watch */
-    .watch-s6-image{
+    /* .watch-s6-image{
         width: 400px;
         height: 500px;
         margin-left: 100px;
-    }
+    } */
     .watch-s6-detail{
         margin-left: 100px;
     }
@@ -484,11 +484,11 @@
     }
     
     /* css watch */
-    .watch-s6-image{
+    /* .watch-s6-image{
         width: 600px;
         height: 700px;
         margin-left: 100px;
-    }
+    } */
     .logo-s6{
         width: 120px;
         height: 40px;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../icon/fontawesome/css/all.min.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="104621768376401"
+theme_color="#000000">
+    </div>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-band">
+                    <img src="../images/home-images/logo.png" alt="logo" height="30px">
+                    <span class="slogan text-white my-auto">Apple</span>
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
+                        <li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
+                        <li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="form-container">
+        <div class="form-groups" id="formGroups">
+            <section id="form-regsiter">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+                            <div class="form-left-side">
+                                <img src="../images/sign_in/form-left-side-img.png" alt="form-img" class="img-fluid">
+                                <div class="form-left-content">
+                                    <h1 class="font-weight-bold text-center text-white">Sign Up</h1>
+                                    <p class="text-center text-white my-3">One click , One change,One think different,One more chage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 form-right-side">
+                            <form action="#" class="form-group p-5 m-0">
+        
+                                <input type="text" class="form-control my-2" name="first-name" placeholder="First Name">
+                                <input type="email" class="form-control my-2" name="email" placeholder="Mail@gmail.com">
+                                <input type="password" class="form-control my-2" name="password" placeholder="Password">
+                                <input type="password" class="form-control my-2" name="confirm-password" placeholder="confirm Password">
+                                <button type="submit" class="btn btn-info btn-block my-5 rounded-0">Register</button>
+                                <p class="text-center text-white py-3">Fast Signup With Your Favourite Social Profile</p>
+                                <ul class="list-unstyled text-center">
+                                    <li class="d-inline text-white"><span class="fab fa-facebook p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-youtube p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-twitter p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-google p-2 border border-light"></span></li>
+                                </ul>
+                                <p class="text-center text-white">Do you have an account?<a href="#" id="regsiter">Login now</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="form-login">
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+                            <div class="form-left-side">
+                                <img src="../images/sign_in/form-left-side-img.png" alt="form-img" class="img-fluid">
+                                <div class="form-left-content">
+                                    <h1 class="font-weight-bold text-center text-white">Sign In</h1>
+                                    <p class="text-center text-white my-3">One click , One change,One think different,One more chage.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0 form-right-side">
+                            <form action="#" class="form-group p-5 m-0">
+        
+                                <input type="email" class="form-control  my-2" name="email" placeholder="Mail@gmail.com">
+                                <input type="password" class="form-control  my-2" name="password" placeholder="Password">
+                                <button type="submit" class="btn btn-info btn-block my-5 rounded-0">Register</button>
+                                <p class="text-center text-white py-3">Fast Signup With Your Favourite Social Profile</p>
+                                <ul class="list-unstyled text-center">
+                                    <li class="d-inline text-white"><span class="fab fa-facebook p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-youtube p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-twitter p-2 border border-light"></span></li>
+                                    <li class="d-inline text-white"><span class="fab fa-google p-2 border border-light"></span></li>
+                                </ul>
+                                <p class="text-center text-white">Don't you have an account?<a href="#" id="login">Register now</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        $(document).ready(()=>{
+            $("#login").click(()=>{
+                var formGroups=$("#formGroups");
+                console.log(formGroups)
+                formGroups.css("margin-left","0%");
+            })
+        })
+        $(document).ready(()=>{
+            $("#regsiter").click(()=>{
+                var formGroups=$("#formGroups");
+                console.log(formGroups)
+                formGroups.css("margin-left","-100%");
+            })
+        })
+    </script>
+</body>
+</html>

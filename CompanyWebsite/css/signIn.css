@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/sign_in/bg-sign-in.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+.form-left-side .img-fluid{
+   position: relative;
+   height: 100%;
+}
+#login .img-fluid{
+    height: auto;
+}
+.form-left-content{
+    position: absolute;
+    top: 40%;
+    left:7%;
+}
+.form-right-side{
+    background-color: black;
+}
+.form-right-side input,.form-right-side input:focus{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none!important;
+    border:none;
+    border-radius: 0;
+
+}
+.form-right-side input{
+    width:50%;
+    transition: 0.5s;
+}
+.form-right-side input:hover,.form-right-side input:focus{
+    border-bottom: 2px solid white;
+    width: 100%;
+    transition: 0.5s;
+}
+.form-right-side .fab:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.form-right-side li{
+    padding:0.5rem;
+    overflow: hidden;
+}
+.form-container{
+    overflow-x: hidden!important;    
+}
+.form-groups{
+    transition: 0.4s;
+    width: 200%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+}
+#form-regsiter,#form-login{
+    width: 100%;
+}
