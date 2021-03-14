@@ -5,63 +5,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Order</title>
 	<link rel="stylesheet" type="text/css" href="../css/order.css">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
-	<script src="../js/jquery.min.js"></script>
-    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../icon/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<script src="../bootstrap/js/jquery.min.js"></script>
+  	<script src="../bootstrap/js/popper.min.js"></script>
+  	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<link href="../fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
-	<!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="104621768376401"
-theme_color="#000000">
-    </div>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm col-md col-lg m-0 p-0">
-				<nav class="navbar navbar-expand-lg navbar-dark">
-					<div class="container">
-						<a href="#" class="navbar-band">
-							<img src="../images/home-images/logo.png" alt="logo" height="30px">
-							<span class="slogan text-white my-auto">Apple</span>
+				<nav class="navbar navbar-expand-md navbar-dark bg-nav">
+					<div class="container-fluid">
+						<a class="navbar-brand ml-5" href="../index.html" id="branch">
+							<img src="../icon/icon_order/logo.png" class="logo">
 						</a>
-						<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+						<button class="navbar-toggler" data-toggle="collapse" data-target="#homeNavbar">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse" id="menu">
-							<ul class="navbar-nav mx-auto">
-								<li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
-								<li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
-								<li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
-								<li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
-							</ul>   
+						<div class="collapse navbar-collapse" id="homeNavbar">
+							<ul class="navbar-nav mx-auto text-center">
+								<li class="nav-item mr-5">
+									<a class="nav-link active" href="../index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/products.html">Product</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/order.html">Order</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="../pages/support.html">Support</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="modal" data-target="#signInModal">Sign in</a>
+								</li>
+								<li class="nav-item">
+									<form action="#">
+										<input type="search" name="Search" class="search-text " placeholder="Search">
+									</form>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</nav>
 			</div>
 		</div>
 		<div class="row mt-2 content">
-			<div class="col-12 col-sm col-md col-lg mt-3">
+			<div class="col-12 col-sm col-md col-lg my-auto">
 				<p class="text-white">Suggestions:</p>
 				<div class="row Suggestions bg-white mx-auto px-2 py-2">
 					<div class="col-12 col-sm-2 col-md-2 col-lg-2">
@@ -74,7 +65,7 @@ theme_color="#000000">
 						<span>Rear camera 3 12MP cameras</span><br>
 						<span>2815 mAh battery, with fast charging</span>
 					</div>
-					<div class="col-12 col-sm-3 col-md-3 col-lg-3 mt-2">
+					<div class="col-12 col-sm-3 col-md-3 col-lg-3 my-auto">
 						<a class="btn btn-primary" href="../pages/order12promax256.html">Buy Now</a>
 					</div>
 				</div>
@@ -89,7 +80,7 @@ theme_color="#000000">
 						<span>Rear camera 2 12MP cameras</span><br>
 						<span>2227 mAh battery</span>
 					</div>
-					<div class="col-12 col-sm-3 col-md-3 col-lg-3 mt-2">
+					<div class="col-12 col-sm-3 col-md-3 col-lg-3 my-auto">
 						<a class="btn btn-primary" href="../pages/order12mini.html">Buy Now</a>
 					</div>
 				</div>
@@ -97,11 +88,11 @@ theme_color="#000000">
 		</div>
 		<hr>
 		<div class="row">
-			<h2 class="text-danger">->Please select the item before making the payment...!</h2>
-			<div class="col-12 col-sm-6 col-md-6 col-lg-6 mx-auto mt-5 customer">
+			<h2 class="text-danger">-->Please select the item before making the payment...!</h2>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-6 mx-auto mt-5">
 				<a href="../pages/products.html" class="text-decoration-none"><-- Buy more products..</a>
 				<label class="Your-cart">Your cart</label>
-				<div class="Information bg-white mb-2 p-2">
+				<div class="Information border bg-white mx-auto my-2 p-2">
 					<form action="#" method="post">
 						<div class="container bg-white">
 							<div class="row">
