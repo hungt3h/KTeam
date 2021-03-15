@@ -41,7 +41,7 @@
 }
 #service .services-content:hover{
 	transition: 0.4s all;
-	z-index: 999;
+	z-index:1;
 	transform:translate(0,-50px);
 	box-shadow:1px 2px 10px black;
 }

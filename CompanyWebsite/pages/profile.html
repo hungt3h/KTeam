@@ -11,180 +11,147 @@
     <title>Profile</title>
 </head>
 <body>
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
-
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="104621768376401"
-theme_color="#000000">
+		attribution="setup_tool"
+		page_id="104621768376401"
+		theme_color="#000000">
     </div>
-<section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a href="../index.html" class="navbar-band">
-                <img src="../images/home-images/logo.png" alt="logo" height="30px">
-                <span class="slogan text-white my-auto">Apple</span>
-            </a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
-                    <li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
-                    <li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
-                </ul>   
-            </div>
-        </div>
-    </nav>
-</section>
-<div class="container-fluid p-0 m-auto">
-    <div class="row card-container m-auto">
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+	<section id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a href="#" class="navbar-band">
+					<img src="../images/home-images/logo.png" alt="logo" height="30px">
+					<span class="slogan text-white my-auto">Apple</span>
+				</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
+						<li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
+						<li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
+						<li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
+					</ul>   
+				</div>
+			</div>
+		</nav>
+	</section>
+	<div class="container-fluid p-0 m-auto">
+		<div class="row card-container m-auto">
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+				<div class="card-profile">
+					<img src="../images/img_profile/bich.png" alt="profile_img">
+					<h3 class="my-3">Nguyễn Thị Bích</h3>
+					<h5>Developer</h5>
+					<p>Gmail:nguyenthibicht3h@gmail.com</p>
+					<button type="button" name="button">See More</button>
+					<ul class="list-unstyled my-3">
+						<li><span class="fab fa-facebook"></span></li>
+						<li><span class="fab fa-twitter"></span></li>
+						<li><span class="fab fa-instagram"></span></li>
+					</ul>
+					<div class="head">
+						<div class="title">
+							<p>Số điện thoại : 0973332039</p>
+						</div>
+						<div class="title">
+							<p>" Dù cuộc sống có vần xoay thế nào, hãy sống thật tử tế ” – Gari</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+				<div class="card-profile">
+					<img src="../images/img_profile/hung.png" alt="profile_img">
+					<h3 class="my-3">Hà Mạnh Hùng</h3>
+					<h5>Developer</h5>
+					<p>Gmail:manhhung.minhchuan@gmail.com</p>
+					<button type="button" name="button">See More</button>
+					<ul class="list-unstyled my-3">
+						<li><span class="fab fa-facebook"></span></li>
+						<li><span class="fab fa-twitter"></span></li>
+						<li><span class="fab fa-instagram"></span></li>
+					</ul>
+					<div class="head">
+						<div class="title">
+							<p>Số điện thoại : 0979544771</p>
+						</div>
+						<div class="title">
+							<p>“ Sức mạnh vĩ đại nhất mà nhân loại có trong tay chính là tình yêu ” – Mahatma Gandhi</p> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+				<div class="card-profile">
+					<img src="../images/img_profile/nhung.png" alt="profile_img">
+					<h3 class="my-3">Đào Hồng Nhung</h3>
+					<h5>Developer</h5>
+					<p>Gmail: daohongnhungtd88@gmail.com</p>
+					<button type="button" name="button">See More</button>
+					<ul class="list-unstyled my-3">
+						<li><span class="fab fa-facebook"></span></li>
+						<li><span class="fab fa-twitter"></span></li>
+						<li><span class="fab fa-instagram"></span></li>
+					</ul>
+					<div class="head">
+						<div class="title">
+							<p>Số điện thoại: 0966843610</p>	
+						</div>
+						<div class="title">
+							<p>“Hạnh phúc tối thượng của cuộc đời là có niềm tin rằng chúng ta được yêu thương.” – Victor Hugo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+				<div class="card-profile">
+					<img src="../images/img_profile/khanh.png" alt="profile_img">
+					<h3 class="my-3">Đặng Duy Khanh</h3>
+					<h5>Developer</h5>
+					<p>Gmail: dangk1312@gmail.com</p>
+					<button type="button" name="button">See More</button>
+					<ul class="list-unstyled my-3">
+						<li><span class="fab fa-facebook"></span></li>
+						<li><span class="fab fa-twitter"></span></li>
+						<li><span class="fab fa-instagram"></span></li>
+					</ul>
+					<div class="head">
+						<div class="title">
+						<p> Số điện thoại : 056221674 </p>	
+						</div>
+						<div class="title">
+							<p>"Để có thể thành công, bạn buộc phải tin rằng bạn có thể"</p>
+						</div>
+					</div>
+				</div>
 
-            <div class="card-profile">
-                <img src="../images/img_profile/bich.png" alt="profile_img">
-                <h3 class="my-3">Nguyễn Thị Bích</h3>
-                <h5>Developer</h5>
-                <p>Không có gì là ko thể.</p>
-                <button type="button" name="button">See More</button>
-                <ul class="list-unstyled my-3">
-
-                    <li><span class="fab fa-facebook"></span></li>
-                    <li><span class="fab fa-twitter"></span></li>
-                    <li><span class="fab fa-instagram"></span></li>
-
-                </ul>
-                <div class="head">
-                    <div class="title">
-                        
-                    </div>
-                    <div class="title">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
-
-            <div class="card-profile">
-                <img src="../images/img_profile/hung.png" alt="profile_img"><!--ảnh ở đây-->
-                <h3 class="my-3">john doe</h3><!--đổi tên này nhớ đổi tất nhá phía dưới là chức danh nhớ lăng là leader còn lại là developer dưới nữa là tuổi -->
-                <h5>Lorem ipsum dolor sit amet</h5>
-                <p>vibecoder</p>
-                <button type="button" name="button">profile</button>
-                <ul class="list-unstyled my-3">
-
-                    <li><span class="fab fa-facebook"></span></li>
-                    <li><span class="fab fa-twitter"></span></li>
-                    <li><span class="fab fa-instagram"></span></li>
-
-                </ul>
-                <div class="head">
-                    <div class="title">
-                        số điện thoại ở đây nhớ mở đúng thẻ cho đẹp nhá.
-                    </div>
-                    <div class="title">
-                        cái gi đó ở đây nhớ là cái khác cũng viết ở title 
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
-
-            <div class="card-profile">
-                <img src="../images/img_profile/nhung.png" alt="profile_img">
-                <h3 class="my-3">john doe</h3>
-                <h5>Lorem ipsum dolor sit amet</h5>
-                <p>vibecoder</p>
-                <button type="button" name="button">profile</button>
-                <ul class="list-unstyled my-3">
-
-                    <li><span class="fab fa-facebook"></span></li>
-                    <li><span class="fab fa-twitter"></span></li>
-                    <li><span class="fab fa-instagram"></span></li>
-
-                </ul>
-                <div class="head">
-                    <div class="title">
-                        
-                    </div>
-                    <div class="title">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
-
-            <div class="card-profile">
-                <img src="../images/img_profile/khanh.png" alt="profile_img">
-                <h3 class="my-3">john doe</h3>
-                <h5>Lorem ipsum dolor sit amet</h5>
-                <p>vibecoder</p>
-                <button type="button" name="button">profile</button>
-                <ul class="list-unstyled my-3">
-
-                    <li><span class="fab fa-facebook"></span></li>
-                    <li><span class="fab fa-twitter"></span></li>
-                    <li><span class="fab fa-instagram"></span></li>
-
-                </ul>
-                <div class="head">
-                    <div class="title">
-                        
-                    </div>
-                    <div class="title">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
-
-            <div class="card-profile">
-                <img src="../images/img_profile/lang.png" alt="profile_img">
-                <h3 class="my-3">john doe</h3>
-                <h5>Lorem ipsum dolor sit amet</h5>
-                <p>vibecoder</p>
-                <button type="button" name="button">profile</button>
-                <ul class="list-unstyled my-3">
-
-                    <li><span class="fab fa-facebook"></span></li>
-                    <li><span class="fab fa-twitter"></span></li>
-                    <li><span class="fab fa-instagram"></span></li>
-
-                </ul>
-                <div class="head">
-                    <div class="title">
-                        
-                    </div>
-                    <div class="title">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4 py-5">
+				<div class="card-profile">
+					<img src="../images/img_profile/lang.png" alt="profile_img">
+					<h3 class="my-3">Kiều Chí Lăng</h3>
+					<h5>Leader</h5>
+					<p>Gmail: 2414lq@gmail.com  </p>
+					<button type="button" name="button">See More`</button>
+					<ul class="list-unstyled my-3">
+						<li><span class="fab fa-facebook"></span></li>
+						<li><span class="fab fa-twitter"></span></li>
+						<li><span class="fab fa-instagram"></span></li>
+					</ul>
+					<div class="head">
+						<div class="title">
+							<p>Số điện thoại: 0373004977</p>	
+						</div>
+						<div class="title">
+							<p>“Nếu một ngày cuộc sống của bạn bị nhuốm màu đen, hãy cầm bút và tô điểm cho nó những vì sao lấp lánh.”</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>                   
