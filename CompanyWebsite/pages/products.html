@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/product.css">
-    <title>Products</title><link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <title>Products</title>
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/jquery.min.js"></script>
     <script src="../css/bootstrap/js/bootstrap.min.js"></script>
@@ -16,26 +17,23 @@
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v10.0'
-        });
-      };
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
 
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
-      attribution="setup_tool"
-      page_id="104621768376401"
-theme_color="#000000">
+    <div class="fb-customerchat" attribution="setup_tool" page_id="104621768376401" theme_color="#000000">
     </div>
     <div class="container-fluid bg-black m-0 p-0 globe-body">
         <section id="navbar">
@@ -51,11 +49,15 @@ theme_color="#000000">
                     <div class="collapse navbar-collapse" id="menu">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item px-3 text-center"><a href="../index.html" class="nav-link">Home</a></li>
-                            <li class="nav-item px-3 text-center"><a href="../pages/products.html" class="nav-link">Products</a></li>
-                            <li class="nav-item px-3 text-center"><a href="../pages/order.html" class="nav-link">Order</a></li>
-                            <li class="nav-item px-3 text-center"><a href="../pages/support.html" class="nav-link">Support</a></li>
-                            <li class="nav-item px-3 text-center"><a href="../pages/signIn.html" class="nav-link"><span class="fa fa-sign-in-alt"> </span> Sign in</a></li>
-                        </ul>   
+                            <li class="nav-item px-3 text-center"><a href="../pages/products.html"
+                                    class="nav-link active">Products</a></li>
+                            <li class="nav-item px-3 text-center"><a href="../pages/order.html"
+                                    class="nav-link">Order</a></li>
+                            <li class="nav-item px-3 text-center"><a href="../pages/support.html"
+                                    class="nav-link">Support</a></li>
+                            <li class="nav-item px-3 text-center"><a href="../pages/signIn.html" class="nav-link"><span
+                                        class="fa fa-sign-in-alt"> </span> Sign in</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -85,10 +87,12 @@ theme_color="#000000">
                 <!-- mac-air -->
                 <div class="product-info-odd container d-lg-flex mt-lg-5 mt-sm-0" data-toggle="collapse"
                     data-target="#highlight-macbook-air-status">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
                         <figure class="macbook-air-image m-0"></figure>
                     </div>
-                    <div class="product-detail macbook-air-detail col-12 col-sm-12 col-md-12 col-lg-4 m-0 text-center  position-relative text-white text-sm-center text-lg-left">
+                    <div
+                        class="product-detail macbook-air-detail col-12 col-sm-12 col-md-12 col-lg-4 m-0 text-center  position-relative text-white text-sm-center text-lg-left">
                         <p class="status-product text-warning font-weight-bold m-0 mt-lg-3 mt-sm-0">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">MacBook Air</p>
                         <p class="product-slogan text-white font-weight-bold">Power. It's in the Air</p>
@@ -109,14 +113,16 @@ theme_color="#000000">
                                 <p class="unit-detail d-inline">Up to 18 hours of battery life</p>
                             </div>
                         </div>
-                        <a href="../pages/ordermacair.html" class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
+                        <a href="../pages/ordermacair.html"
+                            class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
                         <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
                     </div>
                 </div>
                 <!-- mac-pro -->
                 <div class="product-info-even container d-lg-flex mt-lg-5 mt-sm-0" data-toggle="collapse"
                     data-target="#highlight-macbook-pro-status">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
                         <figure class="macbook-pro-image"></figure>
                     </div>
                     <div
@@ -141,14 +147,16 @@ theme_color="#000000">
                                 <p class="unit-detail d-inline">Up to 20 hours of battery life</p>
                             </div>
                         </div>
-                        <a href="../pages/ordermacpro.html" class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
+                        <a href="../pages/ordermacpro.html"
+                            class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
                         <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
                     </div>
                 </div>
                 <!-- mac-mini -->
                 <div class="product-info-odd container d-lg-flex mt-lg-5 mt-sm-0" data-toggle="collapse"
                     data-target="#highlight-mac-mini-status">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center  product-image p-0 position-relative">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center  product-image p-0 position-relative">
                         <figure class="mac-mini-image"></figure>
                     </div>
                     <div
@@ -173,7 +181,8 @@ theme_color="#000000">
                                 <p class="unit-detail d-inline">up to 1.2 Gbps throughput</p>
                             </div>
                         </div>
-                        <a href="../pages/ordermacmini.html" class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
+                        <a href="../pages/ordermacmini.html"
+                            class="btn btn-primary font-weight-bold px-4 my-2">Buy</a><br>
                         <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
                     </div>
                 </div>
@@ -184,10 +193,12 @@ theme_color="#000000">
                 <h2 class="d-flex justify-content-center font-weight-bold py-5 product-type">iPhone</h2>
                 <!-- iPhone-12 -->
                 <div class="product-info-odd container d-lg-flex mt-lg-5 mt-sm-0">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-8 m-0 text-center product-image p-0 position-relative">
                         <figure class="iphone-12-hero-image m-auto"></figure>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 m-0 text-center  product-detail p-0 position-relative text-lg-left text-sm-center">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-4 m-0 text-center  product-detail p-0 position-relative text-lg-left text-sm-center">
                         <p class="status-product text-warning font-weight-bold m-0 mt-3">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">iPhone 12</p>
                         <p class="product-slogan font-weight-bold">Blast past fast</p>
@@ -203,101 +214,102 @@ theme_color="#000000">
                                 models</a>></p>
                     </div>
                     <div class="row p-4 text-center">
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
-                                <div class="iphone-12-image mx-auto iphone-12-pro"></div>
-                                <p class="iphone-name font-weight-bold">iPhone 12 Pro</p>
-                                <ul class="feature-list list-unstyled">
-                                    <li class="list-item">
-                                        <p>6.1" or 6.7" <br>Super Retina XDR display</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>5G capable</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>A14 bionic chip</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>Pro camera system <br>(Ultra Wide, Wide, Telephoto)</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>LiDAR Scanner for Night mode portraits and next‑level AR</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-primary font-weight-bold my-2" href="../pages/order12promax256.html">Buy</a><br>
-                                <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
-                                <div class="iphone-12-image mx-auto iphone-12-classic"></div>
-                                <p class="iphone-name font-weight-bold">iPhone 12</p>
-                                <ul class="feature-list list-unstyled">
-                                    <li class="list-item">
-                                        <p>5.4” or 6.1”<br>Super Retina XDR display</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>5G capable</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>A14 Bionic chip</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>Advanced dual‑camera system <br>
-                                            (Ultra Wide, Wide)</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>-----</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-primary font-weight-bold my-2" href="../pages/order12.html">Buy</a><br>
-                                <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
-                                <div class="iphone-12-image mx-auto iphone-11"></div>
-                                <p class="iphone-name font-weight-bold">iPhone 11</p>
-                                <ul class="feature-list list-unstyled">
-                                    <li class="list-item">
-                                        <p>6.1”<br>Liquid Retina HD display</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>4G LTE cellular</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>A13 Bionic chip</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>Dual-camera system <br>(Ultra Wide, Wide)</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>-----</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-primary font-weight-bold my-2" href="../pages/order11.html">Buy</a><br>
-                                <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
-                                <div class="iphone-12-image mx-auto iphone-se"></div>
-                                <p class="iphone-name font-weight-bold">iPhone SE</p>
-                                <ul class="feature-list list-unstyled">
-                                    <li class="list-item">
-                                        <p>4.7” <br>Retina HD display</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>4G LTE cellular</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>A13 Bionic chip</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>Single-camera system<br>(Wide)</p>
-                                    </li>
-                                    <li class="list-item">
-                                        <p>-----</p>
-                                    </li>
-                                </ul>
-                                <a class="btn btn-primary font-weight-bold my-2" href="../pages/orderse.html">Buy</a><br>
-                                <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
+                            <div class="iphone-12-image mx-auto iphone-12-pro"></div>
+                            <p class="iphone-name font-weight-bold">iPhone 12 Pro</p>
+                            <ul class="feature-list list-unstyled">
+                                <li class="list-item">
+                                    <p>6.1" or 6.7" <br>Super Retina XDR display</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>5G capable</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>A14 bionic chip</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>Pro camera system <br>(Ultra Wide, Wide, Telephoto)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>LiDAR Scanner for Night mode portraits and next‑level AR</p>
+                                </li>
+                            </ul>
+                            <a class="btn btn-primary font-weight-bold my-2"
+                                href="../pages/order12promax256.html">Buy</a><br>
+                            <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
+                            <div class="iphone-12-image mx-auto iphone-12-classic"></div>
+                            <p class="iphone-name font-weight-bold">iPhone 12</p>
+                            <ul class="feature-list list-unstyled">
+                                <li class="list-item">
+                                    <p>5.4” or 6.1”<br>Super Retina XDR display</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>5G capable</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>A14 Bionic chip</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>Advanced dual‑camera system <br>
+                                        (Ultra Wide, Wide)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>-----</p>
+                                </li>
+                            </ul>
+                            <a class="btn btn-primary font-weight-bold my-2" href="../pages/order12.html">Buy</a><br>
+                            <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
+                            <div class="iphone-12-image mx-auto iphone-11"></div>
+                            <p class="iphone-name font-weight-bold">iPhone 11</p>
+                            <ul class="feature-list list-unstyled">
+                                <li class="list-item">
+                                    <p>6.1”<br>Liquid Retina HD display</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>4G LTE cellular</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>A13 Bionic chip</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>Dual-camera system <br>(Ultra Wide, Wide)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>-----</p>
+                                </li>
+                            </ul>
+                            <a class="btn btn-primary font-weight-bold my-2" href="../pages/order11.html">Buy</a><br>
+                            <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 m-0text-center d-sm-inline-block  ">
+                            <div class="iphone-12-image mx-auto iphone-se"></div>
+                            <p class="iphone-name font-weight-bold">iPhone SE</p>
+                            <ul class="feature-list list-unstyled">
+                                <li class="list-item">
+                                    <p>4.7” <br>Retina HD display</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>4G LTE cellular</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>A13 Bionic chip</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>Single-camera system<br>(Wide)</p>
+                                </li>
+                                <li class="list-item">
+                                    <p>-----</p>
+                                </li>
+                            </ul>
+                            <a class="btn btn-primary font-weight-bold my-2" href="../pages/orderse.html">Buy</a><br>
+                            <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
+                        </div>
                     </div>
-            </div>
+                </div>
             </div>
             <!-- tab watch -->
             <div class="tab-pane fade" id="watch-products" role="tabpanel" aria-labelledby="watch-tab">
@@ -308,30 +320,34 @@ theme_color="#000000">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 text-center product-image p-0">
                             <figure class="watch-s6-image m-auto"></figure>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 py-5 text-center product-detail watch-s6-detail text-white">
+                        <div
+                            class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 py-5 text-center product-detail watch-s6-detail text-white">
                             <p class="product-name font-weight-bold display-4 m-auto logo-s6"></p>
                             <p class="product-slogan font-weight-bold">The future of health<br>is on your wrist.</p>
-                            <a class="btn btn-primary font-weight-bold px-4 m-2" href="../pages/orderwatchs6.html">Buy</a>
+                            <a class="btn btn-primary font-weight-bold px-4 m-2"
+                                href="../pages/orderwatchs6.html">Buy</a>
                             <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
                         </div>
                     </div>
-    
-                    </div>
+
+                </div>
                 <div class="container-fluid p-0 pt-5 bg-white">
                     <div class="row py-5">
-                        
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 text-center product-image p-5">
-                                <figure class="watch-se-image m-auto"></figure>
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 py-5 my-5 text-center product-detail watch-se-detail w-50 text-center">
-                                <p class="product-name font-weight-bold display-4  m-auto logo-se"></p>
-                                <p class="product-slogan font-weight-bold">Heavy on features.<br>Light on price.</p>
-                                <a class="btn btn-primary font-weight-bold px-4 m-2" href="../pages/orderwatchse.html">Buy</a>
-                                <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
-                            </div>
-                    
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 text-center product-image p-5">
+                            <figure class="watch-se-image m-auto"></figure>
+                        </div>
+                        <div
+                            class="col-12 col-sm-12 col-md-6 col-lg-6 m-0 py-5 my-5 text-center product-detail watch-se-detail w-50 text-center">
+                            <p class="product-name font-weight-bold display-4  m-auto logo-se"></p>
+                            <p class="product-slogan font-weight-bold">Heavy on features.<br>Light on price.</p>
+                            <a class="btn btn-primary font-weight-bold px-4 m-2"
+                                href="../pages/orderwatchse.html">Buy</a>
+                            <a href="#" class="text-decoration-none text-primary mt-4">Learn more</a>
+                        </div>
+
                     </div>
-                    
+
                     <!-- suggested-watch  -->
                     <div class=" text-center mb-5">
                         <p class="font-weight-bold suggested-sentence m-0 p-0">Which Apple Watch is right for you?</p>
@@ -421,7 +437,7 @@ theme_color="#000000">
                             <a class="btn btn-primary font-weight-bold m-2" href="../pages/orderwatchs3.html">Buy</a>
                             <a href="#" class="text-decoration-none text-primary mt-4">See more</a>
                         </div>
-                    </div>                      
+                    </div>
                 </div>
             </div>
             <!-- tab iPad -->
@@ -429,12 +445,12 @@ theme_color="#000000">
                 aria-labelledby="ipad-tab">
                 <h2 class="d-flex justify-content-center font-weight-bold py-5 product-type">iPad</h2>
                 <!-- iPad air  -->
-                <div class="product-info-odd container d-flex mt-5" data-toggle="collapse"
+                <div class="product-info-odd container d-lg-flex text-sm-center text-lg-left mt-5" data-toggle="collapse"
                     data-target="#highlight-ipad-air-status">
-                    <div class="col-8 product-image p-0 position-relative">
+                    <div class="col-sm-12 col-lg-8 product-image p-0 position-relative">
                         <figure class="ipad-air-image"></figure>
                     </div>
-                    <div class="product-detail col-4 w-50 pt-5 mt-5 position-relative">
+                    <div class="product-detail col-sm-12 col-lg-4 w-50 pt-5 mt-5 ml-5 position-relative">
                         <p class="status-product text-warning font-weight-bold m-0 mt-3">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">iPad Air</p>
                         <p class="product-slogan font-weight-bold">Powerful. Colorful. Wonderful</p>
@@ -460,12 +476,12 @@ theme_color="#000000">
                     </div>
                 </div>
                 <!-- iPad-102  -->
-                <div class="product-info-even container d-flex mt-5 pt-5" data-toggle="collapse"
+                <div class="product-info-even container d-lg-flex text-sm-center text-lg-left mt-5 pt-5" data-toggle="collapse"
                     data-target="#highlight-ipad-102-status">
-                    <div class="col-8 product-image p-0 position-relative">
+                    <div class="col-sm-12 col-lg-8 product-image p-0 position-relative">
                         <figure class="ipad-102-image"></figure>
                     </div>
-                    <div class="product-detail col-4 w-50 ml-5 pl-5 position-relative">
+                    <div class="product-detail col-sm-12 col-lg-4 w-50 ml-5 pl-5 position-relative">
                         <p class="status-product text-warning font-weight-bold m-0 mt-3">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">iPad</p>
                         <p class="product-slogan font-weight-bold">Delightfully capable.<br>Surprisingly affordable</p>
@@ -491,12 +507,12 @@ theme_color="#000000">
                     </div>
                 </div>
                 <!-- iPad-pro -->
-                <div class="product-info-odd container d-flex mt-5 pt-5" data-toggle="collapse"
+                <div class="product-info-odd container d-lg-flex text-sm-center text-lg-left mt-5 pt-5" data-toggle="collapse"
                     data-target="#highlight-ipad-pro-status">
-                    <div class="col-8 product-image p-0 position-relative">
+                    <div class="col-sm-12 col-lg-8 product-image p-0 position-relative">
                         <figure class="ipad-pro-image"></figure>
                     </div>
-                    <div class="product-detail col-4 w-50 ml-5 pl-5 position-relative">
+                    <div class="product-detail col-sm-12 col-lg-4 w-50 ml-5 pl-5 position-relative">
                         <p class="status-product text-warning font-weight-bold m-0 mt-3">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">iPad Pro</p>
                         <p class="product-slogan font-weight-bold">The ultimate<br>iPad experience.</p>
@@ -522,12 +538,12 @@ theme_color="#000000">
                     </div>
                 </div>
                 <!-- iPad-mini  -->
-                <div class="product-info-even container d-flex mt-5 pt-5" data-toggle="collapse"
+                <div class="product-info-even container d-lg-flex text-sm-center text-lg-left mt-5 pt-5" data-toggle="collapse"
                     data-target="#highlight-ipad-mini-status">
-                    <div class="col-8 product-image p-0 position-relative">
+                    <div class="col-sm-12 col-lg-8 product-image p-0 position-relative">
                         <figure class="ipad-mini-image"></figure>
                     </div>
-                    <div class="product-detail col-4 w-50 ml-5 pl-5 position-relative">
+                    <div class="product-detail col-sm-12 col-lg-4 w-50 ml-5 pl-5 position-relative">
                         <p class="status-product text-warning font-weight-bold m-0 mt-3">New</p>
                         <p class="product-name font-weight-bold display-4 m-0">iPad Mini</p>
                         <p class="product-slogan font-weight-bold">Small in size.<br>Big on capability.</p>
@@ -635,10 +651,10 @@ theme_color="#000000">
         </div>
     </div>
     <script>
-        var buttonBuy=document.getElementsByClassName("btn");
-        for(var i=0;i<buttonBuy.length;i++){
-            buttonBuy[i].onclick=()=>{
-            location.href="../pages/order.html";
+        var buttonBuy = document.getElementsByClassName("btn");
+        for (var i = 0; i < buttonBuy.length; i++) {
+            buttonBuy[i].onclick = () => {
+                location.href = "../pages/order.html";
             }
         }
     </script>

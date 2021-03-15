@@ -1,3 +1,6 @@
+*{
+	font-family: "Nunito";
+}
 .globe-body{
     overflow: hidden;
 }
@@ -375,11 +378,11 @@
     }
     
     /* css watch */
-    /* .watch-s6-image{
+    .watch-s6-image{
         width: 400px;
         height: 500px;
         margin-left: 100px;
-    } */
+    }
     .watch-s6-detail{
         margin-left: 100px;
     }
